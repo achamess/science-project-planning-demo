@@ -1,0 +1,30 @@
+# Project manifest — the hand-written half of the catalog.
+# Everything else (git activity, file counts, commit subjects) is derived at build time.
+# Rebuild with:  python3 "../_catalog/build.py"
+# status: active | submitted | awarded | parked | done | dead
+# kind:   grant | protocol | analysis | software | manuscript | admin | learning
+
+id: science-project-planning-demo
+title: Science Project Planning Demo
+kind: software
+status: done
+one_liner: Public demonstration repo showing the file-based planning skill applied to a research project
+  — standard scientific directory scaffold plus a worked DRG-vs-sympathetic-ganglia proteomics plan.
+started: '2026-04-23'
+people:
+- Chamessian
+tags:
+- demo
+- planning
+- project-scaffold
+- proteomics
+- public
+outputs:
+- path: task_plan.md
+  what: Worked example plan — DRG vs sympathetic ganglia proteomics
+- path: README.md
+  what: Directory scaffold documentation
+- path: progress.md
+  what: Progress tracking example
+notes: PUBLIC repo — one of only two non-private repos in the catalog. Built in a single day as a
+  demonstration; not an active line of work.
